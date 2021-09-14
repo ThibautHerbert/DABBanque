@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container-home ">
+        <p class="logo-home">Logo de Banque</p>
         <button class="btn btn-primary btn-home">Cliquez-ici pour continuer</button>
     </div>
     <div class="container-hidden">
@@ -18,24 +19,25 @@
             <div class="flex-grow-1">
                 <h1 class="text-center mt-2">Bienvenue sur votre compte</h1>
             </div>
-            <div class="">
-                <button class="btn btn-danger btn-home ">Quitter</button>
+            <div class="test">
+                <button class="btn btn-danger btn-home btn-out">Quitter</button>
             </div>
         </div>
         <div>
             <h2 class="text-center my-3">Que souhaitez-vous faire ?</h2>
             <div class="d-flex flex-column ">
-                <button class="btn btn-info m-2 p-3">Retrait</button>
-                <button class="btn btn-info m-2 p-3">Dépôt</button>
-                <button class="btn btn-info m-2 p-3">Consulter mon solde</button>
-                <button class="btn btn-info m-2 p-3">Virement</button>
+                <button class="btn btn-info m-2 p-3 withdraw">Retrait</button>
+                <button class="btn btn-info m-2 p-3 deposit">Dépôt</button>
+                <button class="btn btn-info m-2 p-3 solde">Consulter mon solde</button>
+                <button class="btn btn-info m-2 p-3 transfer">Virement</button>
                 
             </div>
         </div>
     </div>
     
-    <script src="./src/main.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
+<script async src="./src/main.js"></script>
 </html>
